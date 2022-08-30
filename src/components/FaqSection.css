@@ -1,0 +1,20 @@
+.faqsection {
+  background-color: #f7f7f7;
+  padding: 1.6rem;
+}
+
+.faq-container {
+}
+
+.heading {
+  text-align: center;
+}
+
+.all-faq {
+  margin: 3rem;
+}
+
+.faq-accordion {
+  font-size: 30px;
+  background-color: rgb(102, 90, 90);
+}

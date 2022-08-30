@@ -1,0 +1,28 @@
+.talkus {
+  padding: 30px;
+}
+
+.talkus-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.get-pregnant-container {
+  display: flex;
+  /* justify-content: stretch; */
+  align-items: center;
+}
+.CTA-container {
+  /* background-color: red; */
+
+  margin: 10px;
+}
+.pregnant-text {
+  margin: 10px;
+  text-align: center;
+}
+
+.pregnant-para {
+  margin: 10px;
+  text-align: center;
+}

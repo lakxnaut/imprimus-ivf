@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #f7f7f7;
+  /* height: 10vh; */
+  padding: 40px;
+}
+.nav-top-menu {
+  display: flex;
+}
+.nav-top-menu {
+  padding: 20px;
+}
+.nav-menu {
+  /* padding: 100px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-box {
+  object-fit: contain;
+  width: 150px;
+  height: 80px;
+  margin-right: 100px;
+}
+.logo {
+  /* background: #000; */
+  height: 100%;
+  width: auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu > h3 {
+  font-weight: 400;
+  color: #1aa3b5;
+  font-size: 1.5rem;
+}
+
+.nav-bottom-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bottom-menu > h3 {
+  padding-left: 90px;
+}
+.accord {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .navbar {
+    padding: 10px;
+  }
+  .nav-home,
+  .nav-about,
+  .nav-treatment,
+  .nav-infertility {
+    display: none;
+  }
+  .accord {
+    display: block;
+  }
+  .menu-buttons {
+    display: none;
+  }
+  .nav-bottom-menu {
+    display: none;
+  }
+}
